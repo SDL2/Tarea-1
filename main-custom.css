@@ -1,6 +1,12 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .prueba{
     background-color: blue;
     color: chartreuse;
+}
+body{
+    width: 100vw !important;
+    font-family: 'Montserrat', sans-serif;
 }
