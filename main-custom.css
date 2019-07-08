@@ -9,6 +9,9 @@
 }
 
 
+.aderecha{
+    right: auto;
+}
 
 .fmontserrat{
     font-family: 'Montserrat', sans-serif !important;
@@ -40,6 +43,7 @@ p {
 
     line-height: 1.5 !important;
 }
+
 
 
 
