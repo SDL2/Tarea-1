@@ -627,6 +627,11 @@ video {
   }
 }
 
+.pruebaSDL{
+  background-color: blue;
+  color: chartreuse;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -35454,3 +35459,8 @@ video {
     z-index: auto;
   }
 }
+
+
+
+
+

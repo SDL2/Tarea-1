@@ -23,7 +23,7 @@ npm -v
  -run: npm init -y
 
 
-2- now run: (--save -dev?? si opti no funcio reinstal con eso)
+2- now run: 
 npm install tailwindcss --save -dev
 
 
@@ -51,7 +51,11 @@ npx tailwind build main-custom.css -o css/tailwind.css
 6- then in your html don't forget you links, for this example must look like this:
 
 <link rel="stylesheet" href="css/tailwind.css">
+
 <link rel="stylesheet" href="main-custom.css">
+(this link shouldn't )
+
+npx tailwind build main-custom.css -o css/tailwind.css
 
 	AND WE ARE READY
 

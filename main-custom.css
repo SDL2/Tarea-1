@@ -1,18 +1,23 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-.prueba{
+/* prueba guardada!! 
+.pruebaSDL{
     background-color: blue;
     color: chartreuse;
+    font-family: 'Oswald', sans-serif;
 }
+*/
+@tailwind utilities;
 
 
-.aderecha{
-    right: auto;
-}
 
+/* nuestras fuentes */
+@import 'css/our-fonts.css';
+
+
+
+
+/* nuestro css */
 .fmontserrat{
     font-family: 'Montserrat', sans-serif !important;
 }
@@ -40,8 +45,8 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-
     line-height: 1.5 !important;
+    font-family: 'Lato', sans-serif;
 }
 
 
