@@ -1,12 +1,11 @@
 @tailwind base;
 @tailwind components;
-/* prueba guardada!! 
+
 .pruebaSDL{
     background-color: blue;
     color: chartreuse;
     font-family: 'Oswald', sans-serif;
 }
-*/
 @tailwind utilities;
 
 

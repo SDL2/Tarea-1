@@ -630,6 +630,7 @@ video {
 .pruebaSDL{
   background-color: blue;
   color: chartreuse;
+  font-family: 'Oswald', sans-serif;
 }
 
 .appearance-none {
@@ -7594,6 +7595,56 @@ video {
 
 .z-auto {
   z-index: auto;
+}
+
+/* nuestras fuentes */
+
+@import 'our-fonts.css';
+
+/* nuestro css */
+
+.fmontserrat{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif !important;
+  display: block;
+  -webkit-margin-before: 0.83em;
+          margin-block-start: 0.83em;
+  -webkit-margin-after: 0.83em;
+          margin-block-end: 0.83em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif !important;
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  line-height: 1.5 !important;
+  font-family: 'Lato', sans-serif;
 }
 
 @media (min-width: 640px) {
@@ -35459,7 +35510,6 @@ video {
     z-index: auto;
   }
 }
-
 
 
 
